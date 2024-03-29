@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Pig Game" />
+    <meta property="og:description" content="The object of the jeopardy dice game Pig is to be the first player to reach 100 points. Each player's turn consists of repeatedly rolling a die. After each roll, the player is faced with two choices: roll again, or hold (decline to roll again)." />
+    <meta property="og:image" content="https://gameonfamily.com/wp-content/uploads/2023/05/pig-dice-game.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pig game</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+</head>
+<body class="uppercase kt-default  font-kt-cursive   bg-gradient-to-r from-purple-600 to-blue-600 " >
+    <header>
+        <button class="rule btn absolute left-[46%] top-[13%]">Rules</button>
+        <div class="modal hidden ">
+      <button class="close-modal">&times;</button>
+      <h4 class="text-[1.4rem] text-red-500">Rules</h4>
+        <br />
+        <p class="[1.4rem]">The player who first hits the score <span class="text-red-500">100</span> will <span class="text-red-500">win</span> the game.</p>
+        <br />
+        <ul>
+          <li><span class="text-red-500">Esc</span> - New Game</li>
+          <li><span class="text-red-500">R</span>- Roll Dice</li>
+          <li><span class="text-red-500">Space</span> - Hold</li>
+        </ul>
+    </div>
+    <div class="overlay hidden"></div>
+
+
+    </header>
+    <main class="flex  justify-center translate-y-[12.5rem] ">
+        <div class=" player player--0 player--active h-[37.5rem] bg-gray-100 w-[37.5rem] text-center  ">
+            
+            
+            <h2 id="name--0" class="name  text-[4.375rem] mt-[100px] text ">Player 1</h2>
+            
+            <p class="score mt-[2.5rem] text-[3.75rem] text-red-500" id="score--0 ">10</p>
+            <div class="current bg-gray-500 inline-block p-[1.6rem] border-[2px] border-solid border-black rounded-[0.75rem] opacity-[0.8] mt-[6.25rem]">
+                <p class="current-label text-[1.7rem]">Current</p>
+                <p class="current-score text-[2rem]" id="current--0">0</p>
+            </div>
+            
+
+        </div>
+         <button class="btn btn--new top-[7.5rem]">New game</button>
+          <img src="./dice/dice-5.png" alt="Dice..." class="dice h-[7rem] absolute top-[12.5rem]" />
+      <button class="btn btn--roll top-[24.375rem]">Roll dice</button>
+      <button class="btn btn--hold top-[30rem]">Hold</button>
+        <div class="player player--1 h-[37.5rem] bg-gray-200 w-[37.5rem] text-center">
+            <h2 class="name text-[4.375rem] mt-[6.25rem] text" id="name--1">Player 2</h2>
+            <p class="score mt-[2.5rem] text-[3.75rem] text-red-500" id="score--1">20</p>
+            <div class="current bg-gray-500 inline-block p-[1.6rem] border-[2px] border-solid border-black rounded-[12px] opacity-[0.8] mt-[6.25rem]">
+                <p class="current-label text-[1.7rem]">Current</p>
+                <p class="current-score text-[2rem]" id="current--1">0</p>
+            </div>
+        </div>
+    </main>
+  
+
+    </div>
+    <div></div>
+
+  <script src="script.js"></script>  
+</body>
+</html>
