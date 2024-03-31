@@ -11,10 +11,13 @@
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
-.player--active {
+.active--player {
   opacity: 1;
   box-shadow: 0 4rem 9rem green;
-}
+ 
+  /* display: absolute; */
+} 
+
 .btn {
   position: absolute;
   padding: 0.7rem 2.5rem;

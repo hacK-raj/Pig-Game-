@@ -739,9 +739,10 @@ video {
   -moz-text-fill-color: transparent;
 }
 
-.player--active {
+.active--player {
   opacity: 1;
   box-shadow: 0 4rem 9rem green;
+  /* display: absolute; */
 }
 
 .btn {
