@@ -30,7 +30,7 @@
 
     </header>
     <main class="flex  justify-center translate-y-[12.5rem] ">
-        <div class=" player player--0 player--active h-[37.5rem] bg-gray-100 w-[37.5rem] text-center  ">
+        <div class=" player player--0 player--active h-[37.5rem] bg-gray-100 w-[37.5rem] text-center rounded-l-[20px]  ">
             
             
             <h2 id="name--0" class="name  text-[4.375rem] mt-[100px] text ">Player 1</h2>
@@ -47,7 +47,7 @@
           <img src="./dice/dice-5.png" alt="Dice..." class="dice h-[7rem] absolute top-[12.5rem]" />
       <button class="btn btn--roll top-[24.375rem]">Roll dice</button>
       <button class="btn btn--hold top-[30rem]">Hold</button>
-        <div class="player player--1 h-[37.5rem] bg-gray-200 w-[37.5rem] text-center">
+        <div class="player player--1 h-[37.5rem] bg-gray-200 w-[37.5rem] text-center rounded-r-[20px]">
             <h2 class="name text-[4.375rem] mt-[6.25rem] text" id="name--1">Player 2</h2>
             <p class="score mt-[2.5rem] text-[3.75rem] text-red-500" id="score--1">20</p>
             <div class="current bg-gray-500 inline-block p-[1.6rem] border-[2px] border-solid border-black rounded-[12px] opacity-[0.8] mt-[6.25rem]">
@@ -56,6 +56,12 @@
             </div>
         </div>
     </main>
+    <div class="modal hidden">
+        <div class="content">
+            <h2 class="text-center text-[22px] text-[#ff3d3d] ">🎉Congratulation🎉 Player<span class="player--wins">1</span> Win the game</h2>
+            <button class="mbtn close-modal absolute right-[100px] top-[20px]">Re-match</button>
+        </div>
+    </div>
   
 
     </div>
