@@ -30,12 +30,12 @@
 
     </header>
     <main class="flex  justify-center translate-y-[12.5rem] ">
-        <div class=" player player--0 player--active h-[37.5rem] bg-gray-100 w-[37.5rem] text-center rounded-l-[20px]  ">
+        <div class=" player player--0 active--player h-[37.5rem] bg-gray-100 w-[37.5rem] text-center rounded-l-[20px]  ">
             
             
             <h2 id="name--0" class="name  text-[4.375rem] mt-[100px] text ">Player 1</h2>
             
-            <p class="score mt-[2.5rem] text-[3.75rem] text-red-500" id="score--0 ">10</p>
+            <p class="score mt-[2.5rem] text-[3.75rem] text-red-500" id="score--0">10</p>
             <div class="current bg-gray-500 inline-block p-[1.6rem] border-[2px] border-solid border-black rounded-[0.75rem] opacity-[0.8] mt-[6.25rem]">
                 <p class="current-label text-[1.7rem]">Current</p>
                 <p class="current-score text-[2rem]" id="current--0">0</p>
@@ -56,16 +56,20 @@
             </div>
         </div>
     </main>
-    <div class="modal hidden">
+    <div class="modal2 hidden">
         <div class="content">
             <h2 class="text-center text-[22px] text-[#ff3d3d] ">🎉Congratulation🎉 Player<span class="player--wins">1</span> Win the game</h2>
-            <button class="mbtn close-modal absolute right-[100px] top-[20px]">Re-match</button>
+            
+            
+            <button class="mbtn close-modal2 absolute right-[100px] top-[20px]">Re-match</button>
         </div>
     </div>
   
 
     </div>
     <div></div>
+
+ <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>   
 
   <script src="script.js"></script>  
 </body>

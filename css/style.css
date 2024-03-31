@@ -623,48 +623,14 @@ video {
   border-radius: 12px;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.rounded-r {
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-}
-
-.rounded-r-lg {
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-}
-
-.rounded-r-xl {
-  border-top-right-radius: 0.75rem;
-  border-bottom-right-radius: 0.75rem;
-}
-
-.rounded-r-\[\] {
-  border-top-right-radius: ;
-  border-bottom-right-radius: ;
+.rounded-l-\[20px\] {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .rounded-r-\[20px\] {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-}
-
-.rounded-l {
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-.rounded-l-\[\] {
-  border-top-left-radius: ;
-  border-bottom-left-radius: ;
-}
-
-.rounded-l-\[20px\] {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
 }
 
 .border-\[2px\] {
@@ -815,6 +781,21 @@ video {
   background-image:
 }
 
+.modal2 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height:25%;
+  background-color: white;
+  padding: 4rem;
+  border-radius: 10px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  background-image:
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -847,7 +828,7 @@ video {
   display:none;
 }
 
-.modal .content .mbtn{
+.modal2 .content .mbtn{
   position: absolute;
   top:70%;
   right:38%;
@@ -866,5 +847,9 @@ video {
   box-shadow: 0 2rem 3rem rgba(202, 126, 255, 1.5);
 }
 
+.confetti {
+  position: absolute;
+  z-index: 30;
+}
 
 

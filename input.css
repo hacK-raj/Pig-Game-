@@ -51,6 +51,20 @@
   z-index: 10;
   background-image:
 }
+.modal2 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height:25%;
+  background-color: white;
+  padding: 4rem;
+  border-radius: 10px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  background-image:
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -78,7 +92,7 @@
 .hidden{
     display:none;
 }
-.modal .content .mbtn{
+.modal2 .content .mbtn{
   position: absolute;
   top:70%;
   right:38%;
@@ -96,6 +110,9 @@
     box-shadow: 0 2rem 3rem rgba(202, 126, 255, 1.5);
 
 }
-
+.confetti {
+  position: absolute;
+  z-index: 30;
+}
 
 
